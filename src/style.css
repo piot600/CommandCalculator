@@ -1,0 +1,152 @@
+body {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+	background-color: gray;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+main {
+	background-color: black;
+	color: white;
+	padding: 20px;
+	border-radius: 10%;
+	width: 640px;
+}
+
+#display {
+	grid-column: span 4;
+	padding: 0 10px;
+	margin-bottom: 20px;
+	background: black;
+	font-size: 40px;
+	text-align: right;
+	overflow-x: auto;
+	display: block;
+	white-space: nowrap;
+	overflow-x: auto;
+}
+
+button {
+	color: white;
+	height: 80px;
+	width: 80px;
+	border-radius: 50px;
+	font-size: 30px;
+	background-color: #2a2a2c;
+	border: none;
+}
+
+#theme {
+	width: auto;
+	display: flex;
+	align-items: center;
+	font-size: 13px;
+	height: 40px;
+}
+
+.memory {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	color: white;
+}
+
+button:hover {
+	filter: brightness(120%);
+}
+
+button.binary-operator {
+	background-color: #ff9f0a;
+}
+
+button:disabled:hover {
+	filter: none;
+	cursor: not-allowed;
+}
+
+#zero {
+	grid-column: span 2;
+	width: initial;
+	border-radius: 50px;
+}
+
+#display::-webkit-scrollbar {
+	height: 10px;
+}
+
+#display::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+#display::-webkit-scrollbar-thumb {
+	background-color: #2a2a2c;
+	border-radius: 4px;
+}
+
+#display::-webkit-scrollbar-thumb:hover {
+	background-color: #5c5c5f;
+}
+
+.buttons-grid {
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+}
+
+#zero {
+	grid-column: span 2;
+}
+
+.grey {
+	background-color: gray;
+}
+
+.unary-operator {
+	background-color: gray;
+}
+
+/* THEME 2 */
+
+body.light {
+	background-color: #f0f0f0;
+	color: black;
+}
+
+body.light .memory {
+	color: black;
+}
+
+body.light main {
+	background-color: #ffffff;
+}
+
+body.light #display {
+	background: #ffffff;
+	color: black;
+}
+
+body.light button {
+	background-color: #dddddd;
+	color: black;
+}
+
+body.light button:hover {
+	filter: brightness(80%);
+}
+
+body.light button:disabled:hover {
+	filter: none;
+	cursor: not-allowed;
+}
+
+body.light button.binary-operator {
+	background-color: red;
+}
+
+body.light .unary-operator,
+body.light .grey {
+	background-color: violet;
+}

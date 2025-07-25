@@ -1,0 +1,68 @@
+<html lang='en'>
+	<head>
+		<meta charset='UTF-8' />
+		<meta name='viewport' content='width=device-width, initial-scale=1.0' />
+		<title>Calculator</title>
+	</head>
+	<body>
+		<button id='theme'>Change Theme</button>
+		<main>
+			<section class='memory'>
+				<p>Memory:</p>
+				<output class='displayMemory'></output>
+			</section>
+			<output id='display'>0</output>
+
+			<div class='buttons-grid'>
+				<button class='memory-operator' id='memoryClear'>mc</button>
+				<button class='memory-operator' id='memoryAdd'>m+</button>
+				<button class='memory-operator' id='memorySubtract'>m-</button>
+				<button class='memory-operator' id='memoryRecall'>mr</button>
+
+				<button class='memory-operator' id='saveMemory'>ms</button>
+				<button class='unary-operator' id='opposite'>+/-</button>
+				<button class='unary-operator' id='percent'>%</button>
+				<button class='binary-operator' id='divide'>÷</button>
+
+				<button class='unary-operator' id='squared'>x^2</button>
+				<button class='unary-operator' id='cubed'>x^3</button>
+				<button class='unary-operator' id='tenPowerX'>10^x</button>
+				<button class='binary-operator' id='xpowery'>x^y</button>
+
+				<button class='number'>7</button>
+				<button class='number'>8</button>
+				<button class='number'>9</button>
+				<button class='binary-operator' id='multiply'>x</button>
+
+				<button class='unary-operator' id='fraction'>⅟x</button>
+				<button class='unary-operator' id='squareRoot'>√x</button>
+				<button class='unary-operator' id='cubeRoot'>∛x</button>
+				<button class='binary-operator' id='xrooty'>y√x</button>
+
+				<button class='number'>4</button>
+				<button class='number'>5</button>
+				<button class='number'>6</button>
+				<button class='binary-operator' id='subtract'>-</button>
+
+				<button class='unary-operator' id='factorial'>x!</button>
+				<button disabled></button>
+				<button disabled></button>
+				<button disabled></button>
+
+				<button class='number'>1</button>
+				<button class='number'>2</button>
+				<button class='number'>3</button>
+				<button class='binary-operator' id='add'>+</button>
+
+				<button disabled></button>
+				<button disabled></button>
+				<button class='grey' id='clear'>AC</button>
+				<button class='grey' id='undo'>Undo</button>
+
+				<button class='number' id='zero'>0</button>
+				<button class='grey' id='point'>.</button>
+				<button class='grey' id='equals'>=</button>
+			</div>
+		</main>
+	</body>
+</html>
