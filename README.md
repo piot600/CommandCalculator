@@ -8,6 +8,8 @@ How to run app:
 3. npm run build (build webpack with prettier and eslint)
 4. npm start (starting a server on port http://localhost:3000/)
 
+![image alt](https://github.com/piot600/CommandCalculator/blob/6c2e254c1f42496befc3502ad7a911a1fda5144a/CalculatorPreview.jpg)
+
 Folders Structure:
 
 Mathematical operations with command pattern
