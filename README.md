@@ -10,7 +10,9 @@ How to run app:
 
 ![image alt](https://github.com/piot600/CommandCalculator/blob/6c2e254c1f42496befc3502ad7a911a1fda5144a/CalculatorPreview.jpg)
 
+
 Folders Structure:
+
 
 Mathematical operations with command pattern
 /command
